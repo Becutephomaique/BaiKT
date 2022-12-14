@@ -1,4 +1,6 @@
-﻿
+﻿-- Trần Hồng Hoàng 
+ -- 0950080107
+ -- 09CNTT3
 --CAU 2 Đưa ra hóa đơn có tổng tiền vật tư nhiều nhất gồm : MAHD , Tổng Tiền
 select top 1 MAHD, sum(DONGIA*SLBan) as TongTien from HANGXUAT group by MAHD,
 DONGIA order by DONGIA desc
